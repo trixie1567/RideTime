@@ -56,9 +56,15 @@ page.addEventListener("pagebeforehide", function()
 					tizen.application.getCurrentApplication().exit();
 				} catch (ignore) {
 				}
+			} else if(pageId === "arc-listview-page") {
+				
+				$(".ui-arc-listview").empty();
+				
+				window.history.back();
 			} else {
 				window.history.back();
 			}
+			
 		}
 	});
 }());

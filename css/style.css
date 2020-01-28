@@ -633,12 +633,15 @@ li.static::before {
 
 /* -----------------------------------  OPTION POPUP------------------------------------ */
 .option-icon-action::before {
+	background-color: #ff6347;
 	-webkit-mask-image:url(../contents/popup/images/b_option_list_icon_action.png);
 }
 .option-icon-delete::before {
+	background-color: #ff6347;
 	-webkit-mask-image:url(../contents/popup/images/b_option_list_icon_delete.png);
 }
 .option-icon-enter::before {
+	background-color: #ff6347;
 	-webkit-mask-image:url(../contents/popup/images/b_option_list_icon_enter.png);
 }
 .option-icon-share::before {
@@ -655,23 +658,23 @@ li.static::before {
 }
 /* -----------------------------------POPUP------------------------------------ */
 .btn-icon-share::before {
-	background-color: rgba(245, 245, 245, 1);
+	background-color: #ff6347;
 	-webkit-mask-image: url(../contents/popup/images/tw_ic_button_share_holo_dark.png);
 }
 .btn-icon-showonphone::before {
-	background-color: rgba(245, 245, 245, 1);
+	background-color: #ff6347;
 	-webkit-mask-image: url(../contents/popup/images/tw_ic_button_showonphone_holo_dark.png);
 }
 .btn-icon-delete::before {
-	background-color: rgba(245, 245, 245, 1);
+	background-color: #ff6347;
 	-webkit-mask-image: url(../contents/popup/images/tw_ic_button_delete_holo_dark.png);
 }
 .btn-icon-check::before {
-	background-color: rgba(245, 245, 245, 1);
+	background-color: #ff6347;
 	-webkit-mask-image: url(../contents/popup/images/tw_ic_popup_btn_check.png);
  }
 .btn-icon-cancel::before {
-	background-color: rgba(245, 245, 245, 1);
+	background-color: #ff6347;
 	-webkit-mask-image: url(../contents/popup/images/tw_ic_popup_btn_delete.png);
  }
 .btn-icon-toast-check {
