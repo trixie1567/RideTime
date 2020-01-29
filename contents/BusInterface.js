@@ -59,6 +59,7 @@
 	//Gets the Stops for a specific bus Route
 	function getBusStops(){
 		
+		
 		var Bus = document.getElementsByClassName("ui-item ui-item-active")[0].getAttribute('id');
 		console.log(Bus);
 		var link = ("https://www.mycyride.com/Route/" + Bus + "/Directions");
@@ -74,13 +75,18 @@
 				console.log(Stops[i].Latitude +" "+ Stops[i].Longitude);
 				console.log("");
 				
+				
+				
+				//var str = "<div class=\"ui-item\"; id=\""+ Stops[i].ID +"\" data-title=\""+Stops[i].Name+"\"></div>";
 				var str = "<li class=\"li-has-thumb-left\" id=\"" + Stops[i].ID + "\"><a      href=\"#\">" + Stops[i].Name + "<img class=\"ui-li-thumb-left\" src=\"../loc.png\" /></a></li>";
-    			$(str).appendTo($(".ui-arc-listview"));
+    			$(str).appendTo($(".ui-listview"));
 			}
+			
+			
 		});
 		
+		document.location.href = "#page-snaplistview";
 		
-		document.location.href = "#arc-listview-page";
 		
 		
 	}
